@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>Evgeniya Zabolotskaya</title>
+	</head>
+
+	<body>
+		<header id="header">		
+			<h1>Evgeniya Zabolotskaya</h1>
+			<hr>
+			Shopify Frontend Developer
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>CONTACT</h2>
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:essidanaya@gmail.com domain">essidanaya@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="https://github.com/Enyazabi">Enyazabi</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="https://www.linkedin.com/in/evgeniya-zabolotskaya-058966159">Evgeniya Zabolotskaya</a>
+                    </p>
+		    <p>
+                        <i class="bi bi-discord" aria-hidden="true"></i>
+                        <h3>evgeniya_zabi#8086</h3>
+                    </p>
+		    <p>
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
+                        <h3>+375336285847</h3>
+                    </p>
+		     <p>
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                        <h3>+905313782997</h3>
+                    </p>
+		    <p>
+                        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+			    <i class="fa-brands fa-viber"></i>
+                        <h3>+905313782997</h3>
+                    </p>
+				</section>
+				<section>
+					<h2>SKILLS</h2>
+					
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript, jQuery</li>
+                        <li>Shopify Liquid</li>
+			<li>Git, GitHub</li>
+			<li>VS Code, IntelliJ IDEA</li>
+                    </ul>
+				</section>
+				<section>
+					<h2>EDUCATION</h2>
+					
+                    <h3>Biology, Chemistry</h3>
+                    <p>
+                        Belarusian State Pedagogical University named after Maxim Tank
+                    </p>
+                    <p>
+                        2011 - 2017
+                    </p>
+					<h2>EDUCATION</h2>
+					
+                    <h3>Information systems software</h3>
+                    <p>
+                        Institute of Retraining and Professional Development in the Field of Informatization and Management, BSU
+                    </p>
+                    <p>
+                        2017 - 2019
+                    </p>
+				</section>            
+			</article>
+			<article id="mainRight">
+				<section>
+					<h2>ABOUT</h2>
+					
+                    <p>Write a blurb about yourself!</p>
+				</section>
+				<section>
+					<h2>WORK EXPERIENCE</h2>
+                    <h3>Trainee</h3>
+                    <p>
+                       Itransition | Septemper 2018 – November 2018
+                    </p>
+                    <ul>
+                            <li>Trainee</li>
+                            <li>PHP, Symfoni</li>
+                            
+                            
+                    </ul>
+
+                    <h3>Shopify Frontend Developer</h3>
+                    <p>
+                        MageWorx | October 2019 – Up to the present time
+                    </p>
+                    <ul>
+                            <li>Technical support</li>
+                            <li>Software development</li>
+                            
+                            
+                    </ul>
+				</section>
+								<section>
+					<h2>Languages</h2>
+					
+                    <ul>
+                        <li>English - B1</li>
+                        <li>Russian - Native</li>
+                        <li>Belorussian - Intermediate</li>
+                     
+                    </ul>
+				</section>
+				<section>
+					<h2>Code example</h2>
+					
+                   <script>
+			   $('.js-qty__adjust').on('click', function() {
+
+      var $el = $(this),
+          id = $el.data('id'),
+          $qtySelector = $el.siblings('.js-qty__input'),
+          $form = $qtySelector.parents('form:first'),
+          qty = parseInt($qtySelector.val());
+
+      if((parseFloat(qty) == parseInt(qty)) && !isNaN(qty)) {
+
+      } else {
+        qty = 1;
+      }
+
+      if ($el.hasClass('js-qty__adjust--plus')) {
+        qty += 1;
+      } else {
+        qty -= 1;
+        if (qty <= 1) qty = 1;
+      }
+
+      $qtySelector.val(qty).trigger("change");
+
+      setTimeout(function() {
+        $form.submit();
+      }, 500);
+    });
+		   </script>
+				</section>
+			</article>
+		</main>
+	</body>
+</html>
