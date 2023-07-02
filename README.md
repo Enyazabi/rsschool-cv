@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://enyazabi.github.io/rsschool-cv/
